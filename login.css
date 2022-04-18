@@ -1,0 +1,94 @@
+h1
+{
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: weight bolder;
+    font-size: 250%;
+    color:rgb(52, 55, 238);
+}
+
+.container
+{
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: none;
+    margin-right: 20px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid darkblue;
+    background-color: lightblue;
+    border-radius: 7px;
+    color: rgb(87, 52, 52);
+}
+body{
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+input[type="text"],
+input[type="password"]
+
+{
+    width: 94%; 
+    padding: 12px;
+    border: 2px solid white ;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: white;
+}
+
+input[type="login"]
+{
+    text-align: center;
+    background-color: rgb(134, 161, 236);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40%;
+    color: darkblue;
+    font-size: bolder;
+}
+
+input[type="login"]:hover{
+    background-color: lightskyblue;
+}
+input[type="Register"]
+{
+    float: right;
+    text-align: center;
+    background-color: rgb(134, 161, 236);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40%;
+    color: darkblue;
+    font-size: bolder;
+}
+input[type="Register"]:hover{
+    background-color: lightskyblue;
+}
+input[type="Forget"]
+{
+    color: red;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    font: 50%;
+}
+
+.query{
+    float: right;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(41, 48, 78);
+}
+body{
+    background-image: url(images/login.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
